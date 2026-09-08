@@ -122,3 +122,28 @@ body{
     color: var(--cor-de-fundo);
     transition: 0.5s;
 }
+@media screen and (max-width:768px){
+    .container{
+        display: block;
+        background-image: none;
+    }
+    .container-imagem{
+        width: 50vw;
+    }
+    .container-caixa{
+        margin: 2em 2em;
+    }
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+    .imagem-secundario{
+        width: 50vw;
+    }
+    .dispositivos-lista{
+        display: block;
+    }
+    .lista-rodape{
+        display: block;
+    }
+}
